@@ -1,0 +1,17 @@
+{
+  "name": "books",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "Matt Anderson <clutchstar@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
