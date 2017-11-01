@@ -4,7 +4,7 @@ var authRouter = express.Router();
 
 var router = () => {
     authRouter.route('/login').post((req, res) => {
-        console.log('post');
+        if(!req.body.username){return res.send('no body');}
         res.redirect('/');
     })
     .get((req, res) => {
