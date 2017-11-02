@@ -5,12 +5,14 @@
     <link rel="stylesheet" href="/lib/materialize/dist/css/materialize.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="/lib/jquery/dist/jquery.js"></script>
+    <script src="/lib/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="/js/loginValidation.js"></script>
     <title>Login</title>
 </head>
 
 <body>
     <div class="row">
-        <form class="col s12" action="/auth/login/" method="post">
+        <form class="col s12" action="auth/login" method="post" id="loginForm" name="loginForm">
             <div class="row">
 
                 <div class="input-field col s6">
