@@ -27,7 +27,7 @@ var router = () => {
                     if (results.password === req.body.passWord) {
                         var user = results;
                         console.log(user);
-                        res.redirect('/');
+                        res.redirect('/main');
                     } else {
                         console.log('Enter a valid password');
                     }
